@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 22 19:34:28 2019
+# Process ID: 23544
+# Current directory: C:/Users/Ardi/Vivado/Project/TicTacToe/TicTacToe.runs/impl_1
+# Command line: vivado.exe -log design_tictactoe_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_tictactoe_wrapper.tcl -notrace
+# Log file: C:/Users/Ardi/Vivado/Project/TicTacToe/TicTacToe.runs/impl_1/design_tictactoe_wrapper.vdi
+# Journal file: C:/Users/Ardi/Vivado/Project/TicTacToe/TicTacToe.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source design_tictactoe_wrapper.tcl -notrace

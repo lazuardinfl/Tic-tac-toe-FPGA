@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 22 09:24:07 2019
+# Process ID: 11268
+# Current directory: C:/Users/Ardi/Vivado/Project/TicTacToe/TicTacToe.runs/design_tictactoe_axi_gpio_0_5_synth_1
+# Command line: vivado.exe -log design_tictactoe_axi_gpio_0_5.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_tictactoe_axi_gpio_0_5.tcl
+# Log file: C:/Users/Ardi/Vivado/Project/TicTacToe/TicTacToe.runs/design_tictactoe_axi_gpio_0_5_synth_1/design_tictactoe_axi_gpio_0_5.vds
+# Journal file: C:/Users/Ardi/Vivado/Project/TicTacToe/TicTacToe.runs/design_tictactoe_axi_gpio_0_5_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_tictactoe_axi_gpio_0_5.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_tictactoe_axi_gpio_0_5, cache-ID = 7476e6b9eb18d5ac.

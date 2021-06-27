@@ -1,0 +1,8 @@
+13:04:04 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+
+13:04:05 Build Finished (took 293ms)
+

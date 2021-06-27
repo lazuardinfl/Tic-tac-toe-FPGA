@@ -1,0 +1,484 @@
+21:46:06 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:03:02 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:03:05 **** Clean-only build of configuration Debug for project TicTacToe_Keypad ****
+make clean 
+rm -rf  ./src/tictactoe_keypad.o  ./src/tictactoe_keypad.d  TicTacToe_Keypad.elf.size  TicTacToe_Keypad.elf
+ 
+12:03:05 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/tictactoe_keypad.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tictactoe_keypad.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TicTacToe_Keypad_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tictactoe_keypad.d" -MT"src/tictactoe_keypad.o" -o "src/tictactoe_keypad.o" "../src/tictactoe_keypad.c"
+Finished building: ../src/tictactoe_keypad.c
+ 
+Building target: TicTacToe_Keypad.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../TicTacToe_Keypad_bsp/ps7_cortexa9_0/lib -o "TicTacToe_Keypad.elf"  ./src/tictactoe_keypad.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TicTacToe_Keypad.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size TicTacToe_Keypad.elf  |tee "TicTacToe_Keypad.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25576	   1356	  22728	  49660	   c1fc	TicTacToe_Keypad.elf
+Finished building: TicTacToe_Keypad.elf.size
+ 
+12:03:56 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:03:57 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:04:37 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:04:37 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:05:01 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:05:01 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:06:33 **** Auto Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/tictactoe_button.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tictactoe_button.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TicTacToe_Button_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tictactoe_button.d" -MT"src/tictactoe_button.o" -o "src/tictactoe_button.o" "../src/tictactoe_button.c"
+Finished building: ../src/tictactoe_button.c
+ 
+Building target: TicTacToe_Button.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../TicTacToe_Button_bsp/ps7_cortexa9_0/lib -o "TicTacToe_Button.elf"  ./src/tictactoe_button.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TicTacToe_Button.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size TicTacToe_Button.elf  |tee "TicTacToe_Button.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25924	   1356	  22744	  50024	   c368	TicTacToe_Button.elf
+Finished building: TicTacToe_Button.elf.size
+ 
+12:06:35 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:06:36 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:06:59 **** Auto Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/tictactoe_button.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tictactoe_button.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TicTacToe_Button_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tictactoe_button.d" -MT"src/tictactoe_button.o" -o "src/tictactoe_button.o" "../src/tictactoe_button.c"
+Finished building: ../src/tictactoe_button.c
+ 
+Building target: TicTacToe_Button.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../TicTacToe_Button_bsp/ps7_cortexa9_0/lib -o "TicTacToe_Button.elf"  ./src/tictactoe_button.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TicTacToe_Button.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size TicTacToe_Button.elf  |tee "TicTacToe_Button.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25924	   1356	  22744	  50024	   c368	TicTacToe_Button.elf
+Finished building: TicTacToe_Button.elf.size
+ 
+12:07:02 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:07:02 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:07:39 **** Auto Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/tictactoe_button.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tictactoe_button.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TicTacToe_Button_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tictactoe_button.d" -MT"src/tictactoe_button.o" -o "src/tictactoe_button.o" "../src/tictactoe_button.c"
+Finished building: ../src/tictactoe_button.c
+ 
+Building target: TicTacToe_Button.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../TicTacToe_Button_bsp/ps7_cortexa9_0/lib -o "TicTacToe_Button.elf"  ./src/tictactoe_button.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TicTacToe_Button.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size TicTacToe_Button.elf  |tee "TicTacToe_Button.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25924	   1356	  22744	  50024	   c368	TicTacToe_Button.elf
+Finished building: TicTacToe_Button.elf.size
+ 
+12:08:05 **** Auto Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/tictactoe_button.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tictactoe_button.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TicTacToe_Button_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tictactoe_button.d" -MT"src/tictactoe_button.o" -o "src/tictactoe_button.o" "../src/tictactoe_button.c"
+Finished building: ../src/tictactoe_button.c
+ 
+Building target: TicTacToe_Button.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../TicTacToe_Button_bsp/ps7_cortexa9_0/lib -o "TicTacToe_Button.elf"  ./src/tictactoe_button.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TicTacToe_Button.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size TicTacToe_Button.elf  |tee "TicTacToe_Button.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25924	   1356	  22744	  50024	   c368	TicTacToe_Button.elf
+Finished building: TicTacToe_Button.elf.size
+ 
+12:08:07 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:08:08 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:09:41 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:09:41 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:30:28 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:30:28 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:31:06 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:31:06 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:31:59 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:32:00 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:32:45 **** Auto Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/tictactoe_button.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tictactoe_button.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TicTacToe_Button_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tictactoe_button.d" -MT"src/tictactoe_button.o" -o "src/tictactoe_button.o" "../src/tictactoe_button.c"
+Finished building: ../src/tictactoe_button.c
+ 
+Building target: TicTacToe_Button.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../TicTacToe_Button_bsp/ps7_cortexa9_0/lib -o "TicTacToe_Button.elf"  ./src/tictactoe_button.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TicTacToe_Button.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size TicTacToe_Button.elf  |tee "TicTacToe_Button.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25924	   1356	  22744	  50024	   c368	TicTacToe_Button.elf
+Finished building: TicTacToe_Button.elf.size
+ 
+12:32:56 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:32:57 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:33:46 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:33:47 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:34:36 **** Auto Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/tictactoe_button.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tictactoe_button.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TicTacToe_Button_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tictactoe_button.d" -MT"src/tictactoe_button.o" -o "src/tictactoe_button.o" "../src/tictactoe_button.c"
+Finished building: ../src/tictactoe_button.c
+ 
+Building target: TicTacToe_Button.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../TicTacToe_Button_bsp/ps7_cortexa9_0/lib -o "TicTacToe_Button.elf"  ./src/tictactoe_button.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TicTacToe_Button.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size TicTacToe_Button.elf  |tee "TicTacToe_Button.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25924	   1356	  22744	  50024	   c368	TicTacToe_Button.elf
+Finished building: TicTacToe_Button.elf.size
+ 
+12:34:41 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:34:41 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:35:10 **** Auto Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/tictactoe_button.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tictactoe_button.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TicTacToe_Button_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tictactoe_button.d" -MT"src/tictactoe_button.o" -o "src/tictactoe_button.o" "../src/tictactoe_button.c"
+Finished building: ../src/tictactoe_button.c
+ 
+Building target: TicTacToe_Button.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../TicTacToe_Button_bsp/ps7_cortexa9_0/lib -o "TicTacToe_Button.elf"  ./src/tictactoe_button.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TicTacToe_Button.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size TicTacToe_Button.elf  |tee "TicTacToe_Button.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25924	   1356	  22744	  50024	   c368	TicTacToe_Button.elf
+Finished building: TicTacToe_Button.elf.size
+ 
+12:35:14 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:35:15 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:35:52 **** Auto Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/tictactoe_button.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tictactoe_button.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TicTacToe_Button_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tictactoe_button.d" -MT"src/tictactoe_button.o" -o "src/tictactoe_button.o" "../src/tictactoe_button.c"
+Finished building: ../src/tictactoe_button.c
+ 
+Building target: TicTacToe_Button.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../TicTacToe_Button_bsp/ps7_cortexa9_0/lib -o "TicTacToe_Button.elf"  ./src/tictactoe_button.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TicTacToe_Button.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size TicTacToe_Button.elf  |tee "TicTacToe_Button.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25924	   1356	  22744	  50024	   c368	TicTacToe_Button.elf
+Finished building: TicTacToe_Button.elf.size
+ 
+12:35:55 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:35:55 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:36:13 **** Auto Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/tictactoe_button.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tictactoe_button.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TicTacToe_Button_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tictactoe_button.d" -MT"src/tictactoe_button.o" -o "src/tictactoe_button.o" "../src/tictactoe_button.c"
+Finished building: ../src/tictactoe_button.c
+ 
+Building target: TicTacToe_Button.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../TicTacToe_Button_bsp/ps7_cortexa9_0/lib -o "TicTacToe_Button.elf"  ./src/tictactoe_button.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TicTacToe_Button.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size TicTacToe_Button.elf  |tee "TicTacToe_Button.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25924	   1356	  22744	  50024	   c368	TicTacToe_Button.elf
+Finished building: TicTacToe_Button.elf.size
+ 
+12:36:15 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:36:16 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:37:04 **** Auto Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/tictactoe_button.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tictactoe_button.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TicTacToe_Button_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tictactoe_button.d" -MT"src/tictactoe_button.o" -o "src/tictactoe_button.o" "../src/tictactoe_button.c"
+Finished building: ../src/tictactoe_button.c
+ 
+Building target: TicTacToe_Button.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../TicTacToe_Button_bsp/ps7_cortexa9_0/lib -o "TicTacToe_Button.elf"  ./src/tictactoe_button.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TicTacToe_Button.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size TicTacToe_Button.elf  |tee "TicTacToe_Button.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25924	   1356	  22744	  50024	   c368	TicTacToe_Button.elf
+Finished building: TicTacToe_Button.elf.size
+ 
+12:37:06 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:37:07 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:37:35 **** Auto Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/tictactoe_button.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tictactoe_button.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../TicTacToe_Button_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tictactoe_button.d" -MT"src/tictactoe_button.o" -o "src/tictactoe_button.o" "../src/tictactoe_button.c"
+Finished building: ../src/tictactoe_button.c
+ 
+Building target: TicTacToe_Button.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../TicTacToe_Button_bsp/ps7_cortexa9_0/lib -o "TicTacToe_Button.elf"  ./src/tictactoe_button.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: TicTacToe_Button.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size TicTacToe_Button.elf  |tee "TicTacToe_Button.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25924	   1356	  22744	  50024	   c368	TicTacToe_Button.elf
+Finished building: TicTacToe_Button.elf.size
+ 
+12:37:37 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:37:38 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:47:57 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:47:57 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:58:46 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:58:46 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:59:44 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+12:59:44 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+13:00:55 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+13:00:56 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+13:04:04 **** Incremental Build of configuration Debug for project TicTacToe_Button ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
+13:04:05 **** Incremental Build of configuration Debug for project TicTacToe_Keypad ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Tidak ada yang harus dilakukan untuk membuat `main-build'.
